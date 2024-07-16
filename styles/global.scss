@@ -1,0 +1,225 @@
+@use "./partials/mixins" as *;
+@use "./partials/variables" as *;
+@use "./partials/colors" as *;
+@use "./partials/paddings" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Norican&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin:0;
+    overflow-x: hidden;
+    font-family: "Quicksand", sans-serif;
+    // background: linear-gradient(25deg, rgb(232, 226, 222), rgb(222, 249, 241), #ffecd2, #dfffdb, #fcd8ff, #e3ffc7);
+    background: rgb(23, 2, 28);
+    // background-size:300% 300%;
+    // animation: color 18s ease-in-out infinite;
+    // font-family: "Open Sans", sans-serif;
+    // // backdrop-filter: blur(100px);
+    // overflow-x:hidden;
+}
+
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+.card {
+    transition: 200ms;
+
+    &:hover {
+        cursor: pointer;
+        transform: translate(0,-3%);
+    }
+}
+
+.projectPage {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+        font-family: "Oleo Script", system-ui;
+        color:rgb(255, 255, 255);
+        font-size: 120px;
+        font-weight: 800;
+        margin:7rem 0 2rem 0;
+
+        @include phone {
+            font-size: 45px;
+        }
+    }
+
+    & img {
+        width: 70%;
+        border-radius: 10px;
+
+        @include tablet {
+            width:92%;
+        }
+
+    }
+
+    &-description1 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width:40%;
+
+        @include phone {
+            width: 90%;
+        }
+
+        &-title {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(198, 176, 207);
+            font-size: 60px;
+            font-weight: 800;
+            margin:7rem 0 0 0;
+
+            @include phone {
+                font-size: 25px;
+            }
+        }
+
+        &-paragraph {
+            font-size:18px;
+            line-height: 2rem;
+
+            @include phone {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &-gallery1, &-gallery2, &-gallery3 {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+        flex-wrap: wrap;
+        margin: 3rem 0 0 0;
+
+        & img {
+            width: 38%;
+            height:100%;
+            border-radius: 10px;
+
+            @include phone {
+                width:92%;
+                height:100%;
+            }
+
+            @include tablet {
+                width:43%;
+                height:100%;
+            }
+        }
+    }
+
+    &-gallery2 {
+        & img {
+            height:auto;
+            width: 79%;
+            border-radius: 10px;
+
+            @include tablet {
+                width:92%;
+            }
+        }
+    }
+
+    &-gallery3 {
+        & img {
+            height:auto;
+            width: 29%;
+            border-radius: 10px;
+
+            @include phone {
+                width:20%;
+            }
+
+            @include tablet {
+                width:28%;
+            }
+        }
+    }
+
+    &-nextProject {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 300px;
+        border-radius: 150px;
+        margin:7rem 0 2rem 0;
+        transition: transform 600ms;
+
+        @include tablet {
+            width:330px;
+            height:150px;
+        }
+
+        & a {
+            font-family: "Oleo Script", system-ui;
+            color:rgb(1, 69, 47);
+            font-size: 120px;
+            font-weight: 800;
+            text-decoration: none;
+
+            @include tablet {
+                font-size: 45px;
+            }
+        }
+
+        &:hover {
+            cursor:pointer;
+            transform: translate(0,-3%);
+            border: 4px solid rgb(255, 255, 255);
+        }
+    }
+}
+
+.imageContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100px;
+    max-height:100px;
+    max-width:100px;
+    border-radius: 50%;
+    background-color: rgb(255, 227, 255);
+    overflow:hidden;
+
+    & img {
+        width:300px;
+        height:100px;
+    }
+}
+
+.title {
+        font-family: "Oleo Script", system-ui;
+        color:rgb(255, 255, 255);
+        font-weight: 800;
+
+        @include phone {
+            font-size: 35px;
+        }
+
+        @include tablet {
+            font-size: 55px;
+        }
+}
+
+
