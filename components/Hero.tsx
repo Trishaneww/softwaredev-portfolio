@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36  h-[100vh]">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -47,9 +47,10 @@ const Hero = () => {
            *
            *  change md:text-6xl, add more responsive code
            */}
-          <TextGenerateEffect words="Hi. I'm Trishane." className="text-center text-[400px] title" />
+          <TextGenerateEffect words="Hi. I'm Trishane." className="text-center text-[400px] title mb-8" />
+          <TextGenerateEffect words="A Software Developer." className="text-center text-[400px] title -mt-20" />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-4xl text-[400px] title">I'm a Software Developer.</p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl text-[400px] ">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
 
           <a href="#about">
             <MagicButton
