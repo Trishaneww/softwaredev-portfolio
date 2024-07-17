@@ -1,12 +1,11 @@
 export const navItems = [
     { name: "About", link: "/" },
     { name: "Projects", link: "/" },
-    { name: "Testimonials", link: "/" },
     { name: "Resume", link: "/" },
     { name: "Contact", link: "/" },
 ];
-
  
+
   export const gridItems = [
     {
       id: 1,
@@ -71,6 +70,8 @@ export const navItems = [
     },
   ];
   
+ 
+  
   export const projects = [
     {
       id: 1,
@@ -78,7 +79,7 @@ export const navItems = [
       des: "Streamlined food ordering service to make food proccessing quicker",
       img: "/foodbyte7.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://github.com/Trishaneww/kiosk",
     },
     {
       id: 2,
@@ -86,7 +87,7 @@ export const navItems = [
       des: "Streamlined food ordering service to make food proccessing quicker",
       img: "/studyhive11.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://github.com/Trishaneww/kiosk",
     },
     {
       id: 3,
@@ -94,42 +95,10 @@ export const navItems = [
       des: "Streamlined food ordering service to make food proccessing quicker",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
+      link: "https://github.com/Trishaneww/kiosk",
     },
   ];
-  
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
+
   
   export const companies = [
     {
@@ -167,7 +136,7 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Foodbyte",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/foodbyte-logo.png",
@@ -175,7 +144,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "StudyHive",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/studyhive-logo.png",
@@ -183,7 +152,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
+      title: "DigitalWealth",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/digitalwealth-logo.png",
@@ -191,7 +160,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "YaSolutions",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/yasolutionslogo2.png",
@@ -199,7 +168,7 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Lead Frontend Developer",
+      title: "PrimeTort",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/primetort.png",
@@ -207,7 +176,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Lead Frontend Developer",
+      title: "WhyNotMe",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/joe-logo.png",

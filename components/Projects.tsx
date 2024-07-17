@@ -1,7 +1,6 @@
 import React from "react";
 import { workExperience } from "@/data";
 import { Button } from './ui/MovingBorders';
-import Link from "next/link";
 import '../styles/global.scss';
 
 const Projects = () => {

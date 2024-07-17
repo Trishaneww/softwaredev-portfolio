@@ -52,7 +52,7 @@ const Hero = () => {
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
 
-          <a href="#about">
+          <a href="/">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

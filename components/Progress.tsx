@@ -18,8 +18,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title="github.com"
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -40,7 +40,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -64,12 +64,12 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                {/* <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                <div className="flex justify-center items-center">
+                  <p className="flex lg:text-sm md:text-xs text-sm text-purple">
+                    View Github Repo
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div> */}
+                </div>
               </div>
             </PinContainer>
           </div>
