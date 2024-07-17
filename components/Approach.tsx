@@ -1,8 +1,13 @@
-import React from 'react'
+import '../styles/global.scss'
 
 const Approach = () => {
   return (
-    <div>Approach</div>
+    <div>
+        <h1>My Approach</h1>
+        
+
+
+    </div>
   )
 }
 

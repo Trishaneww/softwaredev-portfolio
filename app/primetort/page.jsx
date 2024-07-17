@@ -18,7 +18,7 @@ const PrimeTort = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/whynotme">WhyNotMe</a>
             </footer>
         </div>
     </div>

@@ -4,7 +4,7 @@ import { FloatingNav }  from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 import Progress from '@/components/Progress';
 import Projects from '@/components/Projects';
-import Approach from '@/components/Approach';
+import Footer from '@/components/Footer';
 import { navItems } from "@/data";
 import '../styles/global.scss';
 
@@ -17,7 +17,7 @@ export default function Home() {
         <Projects />
       </div>
       <Progress />
-      <Approach />
+      <Footer />
     </main>
   );
 }

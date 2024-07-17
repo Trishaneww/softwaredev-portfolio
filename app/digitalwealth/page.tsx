@@ -20,7 +20,7 @@ const DigitalWealth = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/yasolutions">YaSolutions</a>
             </footer>
         </div>
     </div>

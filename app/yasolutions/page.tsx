@@ -46,7 +46,7 @@ const Yasolutions = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/primetort">PrimeTort</a>
             </footer>
         </div>
     </div>

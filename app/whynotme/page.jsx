@@ -19,7 +19,7 @@ const WhyNotMe = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/foodbyte">Foodbyte</a>
             </footer>
         </div>
     </div>

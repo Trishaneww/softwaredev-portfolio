@@ -44,7 +44,7 @@ const Studyhive = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/digitalwealth">DigitalWealth</a>
             </footer>
         </div>
     </div>

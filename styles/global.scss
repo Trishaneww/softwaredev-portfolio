@@ -246,6 +246,7 @@ body {
     gap:8rem;
     padding: 10rem 2rem 2rem 2rem;
     font-size: 18px;
+    color:white;
 
     @include tablet {
         font-size: 14px;
@@ -282,17 +283,16 @@ body {
             list-style: none;
             text-decoration: none;
             line-height: 3rem;
-            margin:0;
+            margin:20px 0 0 0;
             padding:0;
 
             & a {
                 text-decoration: none;
-                color:black;
                 transition: 300ms;
 
                 &:hover {
                     cursor:pointer;
-                    color:rgb(9, 118, 12);
+                    color:rgb(202, 154, 234);
                 }
             }
         }

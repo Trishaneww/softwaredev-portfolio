@@ -31,7 +31,7 @@ const Projects = () => {
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800 card"
           >
 
-            <Link href={card.link}>
+            <a href={card.link}>
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl font-bold">
@@ -49,7 +49,7 @@ const Projects = () => {
               </div>
               
             </div>
-            </Link>
+            </a>
           </Button>
         ))}
       </div>
