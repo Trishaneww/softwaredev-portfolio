@@ -70,6 +70,30 @@ export const navItems = [
     },
   ];
   
+
+  export const tooltip = [
+    {
+      id: 1,
+      name: "John Doe",
+      designation: "Software Engineer",
+      image:
+        "/foodbyte-logo.png",
+    },
+    {
+      id: 2,
+      name: "Robert Johnson",
+      designation: "Product Manager",
+      image:
+        "/foodbyte-logo.png",
+    },
+    {
+      id: 3,
+      name: "Jane Smith",
+      designation: "Data Scientist",
+      image:
+        "/foodbyte-logo.png",
+    },
+  ]
  
   
   export const projects = [

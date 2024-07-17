@@ -9,6 +9,8 @@ import {
   useSpring,
 } from "framer-motion";
 
+import '../../styles/global.scss'
+
 export const AnimatedTooltip = ({
   items,
 }: {
@@ -38,7 +40,7 @@ export const AnimatedTooltip = ({
   };
 
   return (
-    <>
+    <div className="tooltip" >
       {items.map((item, idx) => (
         <div
           className="-mr-4  relative group"
@@ -87,6 +89,6 @@ export const AnimatedTooltip = ({
           />
         </div>
       ))}
-    </>
+    </div>
   );
 };

@@ -1,6 +1,8 @@
 import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
+import { AnimatedTooltip } from '@/components/ui/AnimatedTooltip';
+import { tooltip } from '@/data';
 
 const Foodbyte = () => {
   return (
@@ -9,6 +11,8 @@ const Foodbyte = () => {
         <div className="projectPage">
             <p className="projectPage-title">Foodbyte.</p>
             <img src='/foodbyte7.png' alt="preview image" />
+
+            {/* <AnimatedTooltip items={tooltip}/> */}
 
             <div className="projectPage-description1">
                 <p className="projectPage-description1-title">Overview</p>
