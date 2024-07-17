@@ -5,7 +5,7 @@ const Studyhive = () => {
   return (
     <div>
         <div className="projectPage">
-            <p className="projectPage-title">StudyHive</p>
+            <p className="projectPage-title">StudyHive.</p>
             <img src='/studyhive11.png' alt="preview image" />
 
             <div className="projectPage-description1">

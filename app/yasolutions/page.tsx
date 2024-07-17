@@ -1,11 +1,14 @@
 import '../../styles/global.scss';
+import { FloatingNav } from '@/components/ui/FloatingNav';
+import { navItems } from '@/data';
 
 
 const Yasolutions = () => {
   return (
     <div>
+        <FloatingNav navItems={navItems} />
         <div className="projectPage">
-            <p className="projectPage-title">YaSolutions</p>
+            <p className="projectPage-title">YaSolutions.</p>
             <img src='/yasolutions6.png' alt="preview image" />
 
             <div className="projectPage-description1">

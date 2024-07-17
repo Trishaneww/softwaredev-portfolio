@@ -4,7 +4,7 @@ const DigitalWealth = () => {
   return (
     <div>
         <div className="projectPage">
-            <p className="projectPage-title">Digital Wealth</p>
+            <p className="projectPage-title">Digital Wealth.</p>
             <img src='/dw6.png' alt="preview image" />
 
             <section className="projectPage-gallery1">

@@ -4,7 +4,7 @@ const Foodbyte = () => {
   return (
     <div>
         <div className="projectPage">
-            <p className="projectPage-title">Foodbyte</p>
+            <p className="projectPage-title">Foodbyte.</p>
             <img src='/foodbyte7.png' alt="preview image" />
 
             <div className="projectPage-description1">

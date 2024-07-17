@@ -5,7 +5,7 @@ const PrimeTort = () => {
   return (
     <div>
         <div className="projectPage">
-            <p className="projectPage-title">PrimeTort</p>
+            <p className="projectPage-title">PrimeTort.</p>
             <img src='/primetort1.png' alt="preview image" />
 
             <section className="projectPage-gallery2">

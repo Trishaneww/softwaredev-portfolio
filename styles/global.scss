@@ -172,7 +172,7 @@ body {
 
         & a {
             font-family: "Oleo Script", system-ui;
-            color:rgb(1, 69, 47);
+            color:rgb(235, 255, 249);
             font-size: 120px;
             font-weight: 800;
             text-decoration: none;
@@ -209,17 +209,17 @@ body {
 }
 
 .title {
-        font-family: "Oleo Script", system-ui;
-        color:rgb(255, 255, 255);
-        font-weight: 800;
+    font-family: "Oleo Script", system-ui;
+    color:rgb(255, 255, 255);
+    font-weight: 800;
 
-        @include phone {
-            font-size: 35px;
-        }
+    @include phone {
+        font-size: 35px;
+    }
 
-        @include tablet {
-            font-size: 55px;
-        }
+    @include tablet {
+        font-size: 55px;
+    }
 }
 
 
