@@ -1,6 +1,9 @@
+"use client"
 import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
+import { HoverEffect } from '@/components/ui/CardHoverEffect';
+import { studyHiveFeatures } from '@/data';
 
 
 const Studyhive = () => {
@@ -21,9 +24,10 @@ const Studyhive = () => {
             </section>
 
             <div className="projectPage-description1">
-                <p className="projectPage-description1-title">Converge Tool</p>
-                <p className="projectPage-description1-paragraph">One of the most interesting recent developments for me as designer has been the convergence of "plug and play" software tooling, front-end frameworks that are easy to pick up, and fancy new deployment tools that are hassle free. It's never been easier to start making something on the web. This has enabled me to create Doodler, a collaborative SVG drawing tool.</p>
+                <p className="projectPage-description1-title">Quizzing</p>
+                <p className="projectPage-description1-paragraph">I developed a comprehensive quizzing system using JavaScript that enables users to quiz themselves in various ways and records their scores. The system is designed to enhance learning and self-assessment by providing immediate feedback and tracking user performance over time.</p>
             </div>
+            <HoverEffect items={studyHiveFeatures} />
 
             <section className="projectPage-gallery1">
                 <img src='/studyhive4.png' alt="first image" />
