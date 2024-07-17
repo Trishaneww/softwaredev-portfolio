@@ -6,15 +6,15 @@ import '../styles/global.scss'
 
 const RecentProjects = () => {
   return (
-    <div className="py-20 px-0 relative">
-      <h1 className="heading lg:text-7xl title">
+    <div className="py-20 relative">
+      <h1 className="heading lg:text-8xl title">
         In {" "}
-        <span className="text-purple">Progress</span>
+        <span className="text-purple lg:text-8xl">Progress</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-2 gap-12 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-2 gap-20 mt-12">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] ml-2 mr-2"
             key={item.id}
           >
             <PinContainer

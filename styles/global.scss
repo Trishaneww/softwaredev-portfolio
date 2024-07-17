@@ -46,6 +46,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 
     &-title {
         font-family: "Oleo Script", system-ui;
@@ -76,7 +77,7 @@ body {
         align-items: left;
         width:40%;
 
-        @include phone {
+        @include tablet {
             width: 90%;
         }
 
@@ -208,13 +209,19 @@ body {
     }
 }
 
+
+.progressContainer {
+    background-color: white;
+    width:100%;
+}
+
 .title {
     font-family: "Oleo Script", system-ui;
-    color:rgb(255, 255, 255);
     font-weight: 800;
+    font-size: 6rem;
 
     @include phone {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     @include tablet {
@@ -222,4 +229,72 @@ body {
     }
 }
 
+.footer-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    @include phone {
+        justify-content: flex-start;
+    }
+}
+
+
+.footer {
+    display:flex;
+    justify-content: center;
+    gap:8rem;
+    padding: 10rem 2rem 2rem 2rem;
+    font-size: 18px;
+
+    @include tablet {
+        font-size: 14px;
+        margin:0 0 0 0;
+        gap:2rem;
+    }
+
+    @include phone {
+        padding:0;
+        font-size: 14px;
+        margin:30% 0 0 0;
+    }
+
+    &-trishane {
+
+        @include phone {
+            display:none;
+            margin:0;
+        }
+    }
+
+    &-contact {
+        display:flex;
+
+        &-section {
+            margin: 0 2rem;
+
+            & p {
+                font-weight: 700;
+            }
+        }
+
+        &-list {
+            list-style: none;
+            text-decoration: none;
+            line-height: 3rem;
+            margin:0;
+            padding:0;
+
+            & a {
+                text-decoration: none;
+                color:black;
+                transition: 300ms;
+
+                &:hover {
+                    cursor:pointer;
+                    color:rgb(9, 118, 12);
+                }
+            }
+        }
+    }
+}

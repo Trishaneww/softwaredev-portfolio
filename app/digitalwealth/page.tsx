@@ -1,8 +1,11 @@
 import '../../styles/global.scss';
+import { FloatingNav } from '@/components/ui/FloatingNav';
+import { navItems } from '@/data';
 
 const DigitalWealth = () => {
   return (
     <div>
+        <FloatingNav navItems={navItems} />
         <div className="projectPage">
             <p className="projectPage-title">Digital Wealth.</p>
             <img src='/dw6.png' alt="preview image" />

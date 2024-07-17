@@ -4,8 +4,9 @@ export const navItems = [
     { name: "Testimonials", link: "/" },
     { name: "Resume", link: "/" },
     { name: "Contact", link: "/" },
-  ];
-  
+];
+
+ 
   export const gridItems = [
     {
       id: 1,
@@ -170,6 +171,7 @@ export const navItems = [
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/foodbyte-logo.png",
+      link:'/foodbyte'
     },
     {
       id: 2,
@@ -177,6 +179,7 @@ export const navItems = [
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/studyhive-logo.png",
+      link:'/studyhive'
     },
     {
       id: 3,
@@ -184,6 +187,7 @@ export const navItems = [
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/digitalwealth-logo.png",
+      link:'/digitalwealth'
     },
     {
       id: 4,
@@ -191,6 +195,7 @@ export const navItems = [
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/yasolutionslogo2.png",
+      link:'/yasolutions'
     },
     {
       id: 5,
@@ -198,6 +203,7 @@ export const navItems = [
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/primetort.png",
+      link:'/primetort'
     },
     {
       id: 6,
@@ -205,6 +211,7 @@ export const navItems = [
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/joe-logo.png",
+      link:'/whynotme'
     },
   ];
   

@@ -1,9 +1,12 @@
 import '../../styles/global.scss';
+import { FloatingNav } from '@/components/ui/FloatingNav';
+import { navItems } from '@/data';
 
 
-const PrimeTort = () => {
+const WhyNotMe = () => {
   return (
     <div>
+      <FloatingNav navItems={navItems} />
         <div className="projectPage">
             <p className="projectPage-title">WhyNotMe.</p>
             <img src='/whynotme1.png' alt="preview image" />
@@ -23,4 +26,4 @@ const PrimeTort = () => {
   )
 }
 
-export default PrimeTort
+export default WhyNotMe

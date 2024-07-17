@@ -1,9 +1,11 @@
 import '../../styles/global.scss';
-
+import { FloatingNav } from '@/components/ui/FloatingNav';
+import { navItems } from '@/data';
 
 const PrimeTort = () => {
   return (
     <div>
+        <FloatingNav navItems={navItems} />
         <div className="projectPage">
             <p className="projectPage-title">PrimeTort.</p>
             <img src='/primetort1.png' alt="preview image" />

@@ -1,8 +1,11 @@
 import '../../styles/global.scss';
+import { FloatingNav } from '@/components/ui/FloatingNav';
+import { navItems } from '@/data';
 
 const Foodbyte = () => {
   return (
     <div>
+        <FloatingNav navItems={navItems} />
         <div className="projectPage">
             <p className="projectPage-title">Foodbyte.</p>
             <img src='/foodbyte7.png' alt="preview image" />
