@@ -5,101 +5,47 @@ export const navItems = [
     { name: "Contact", link: "/" },
 ];
  
-
-  export const gridItems = [
-    {
-      id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
-      spareImg: "",
-    },
-    {
-      id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
-    },
-  
-    {
-      id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
-    {
-      id: 6,
-      title: "Do you want to start a project together?",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-      img: "",
-      spareImg: "",
-    },
-  ];
-  
+export const macbook = [
+  {
+      src: '/foodbyte-logo.png'
+  }
+]
   export const studyHiveFeatures = [
     {
-      title: "Stripe",
+      id:1,
+      title: "Versatile Quiz Formats",
       description:
-        "A technology company that builds economic infrastructure for the internet.",
+        "Users can choose from different quiz formats, including multiple-choice, true/false, and short answer questions, allowing for diverse methods of self-assessment.",
     },
     {
-      title: "Netflix",
+      id:2,
+      title: "Real-Time Scoring",
       description:
-        "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+        "As users complete quizzes, their scores are calculated and displayed immediately, providing instant feedback on their performance.",
     },
     {
-      title: "Google",
+      id:3,
+      title: "Score Recording and Display",
       description:
-        "A multinational technology company that specializes in Internet-related services and products.",
+        "The system records each user's scores and displays them in a user-friendly interface. This allows users to see their results right after completing a quiz and review their performance.",
     },
     {
-      title: "Meta",
+      id:4,
+      title: "Database Integration",
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+        "All scores are saved to the software's database, ensuring that users have a permanent record of their achievements. This database allows users to access their past scores at any time.",
     },
     {
-      title: "Amazon",
+      id:5,
+      title: "Assignment Reattempts",
       description:
-        "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+        " Users can return to their old assignments and quizzes to reattempt them. This feature is particularly useful for continuous learning and improvement, as users can track their progress over multiple attempts.",
     },
     {
-      title: "Microsoft",
+      id:6,
+      title: "User Account Management",
       description:
-        "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+        "Each user has a personalized account where their quiz history, scores, and progress are stored. This personalization helps in providing a tailored learning experience.",
     },
   ];
 

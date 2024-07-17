@@ -9,10 +9,10 @@ body {
     margin:0;
     overflow-x: hidden;
     font-family: "Quicksand", sans-serif;
-    // background: linear-gradient(25deg, rgb(232, 226, 222), rgb(222, 249, 241), #ffecd2, #dfffdb, #fcd8ff, #e3ffc7);
-    background: rgb(28, 0, 33);
+    // background: linear-gradient(25deg, rgb(44, 4, 55), rgb(232, 189, 255), #400f66, #000000, #fcd8ff);
     // background-size:300% 300%;
     // animation: color 18s ease-in-out infinite;
+    background-color: #4a03a078;
     // font-family: "Open Sans", sans-serif;
     // // backdrop-filter: blur(100px);
     // overflow-x:hidden;
@@ -75,7 +75,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: left;
-        width:40%;
+        width:50%;
 
         @include tablet {
             width: 90%;
@@ -175,6 +175,8 @@ body {
         & img {
             height:auto;
             width: 29%;
+            max-width: 1205px;
+            max-height: 1200px;
             border-radius: 10px;
 
             @include phone {

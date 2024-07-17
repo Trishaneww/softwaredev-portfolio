@@ -2,6 +2,8 @@ import '../styles/global.scss'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import Button from './ui/Button';
+import { MacbookScroll } from './ui/MacbookScroll';
+import { macbook } from '@/data';
 
 
 const Approach = () => {
@@ -20,6 +22,8 @@ const Approach = () => {
            <Button text={"Phase 3"}/>
           </div>
         </section>
+
+        <MacbookScroll src='/studyhive11.png' />
         
 
 
