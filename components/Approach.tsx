@@ -7,11 +7,17 @@ import Button from './ui/Button';
 const Approach = () => {
   return (
     <div>
-        <h1>My Approach</h1>
-
         <section className="approachContainer">
-          <div className="approachContainer-phase">
-           <Button text={"phase 2"}/>
+          <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 ">
+           <Button text={"Phase 1"}/>
+          </div>
+
+          <div className="approachContainer-phase flex justify-center items-center p-2">
+           <Button text={"Phase 2"}/>
+          </div>
+
+          <div className="approachContainer-phase flex justify-center items-center p-2">
+           <Button text={"Phase 3"}/>
           </div>
         </section>
         
