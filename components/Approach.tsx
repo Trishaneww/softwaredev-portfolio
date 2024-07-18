@@ -10,26 +10,31 @@ const Approach = () => {
   return (
     <div>
         <section className="approachContainer">
-          <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 ">
-           <Button text={"Phase 1"}/>
+          <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
+            <div className="base">
+              <Button text={"Phase 1"} />
+            </div>
+            <div className="overlay bg-slate-950">
+              <p>Finds campsites using google maps & Weatherbit API to filter through user set parameters.</p>
+            </div>
           </div>
-
-          <div className="approachContainer-phase flex justify-center items-center p-2">
-           <Button text={"Phase 2"}/>
-          </div>
-
-          <div className="approachContainer-phase flex justify-center items-center p-2">
-           <Button text={"Phase 3"}/>
-          </div>
-
 
           <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
-              <div className="base">
-                <Button text={"Phase 3"} />
-              </div>
-              <div className="overlay bg-slate-950">
-                <p>Finds campsites using google maps & Weatherbit API to filter through user set parameters.</p>
-              </div>
+            <div className="base">
+              <Button text={"Phase 2"} />
+            </div>
+            <div className="overlay bg-slate-950">
+              <p>Finds campsites using google maps & Weatherbit API to filter through user set parameters.</p>
+            </div>
+          </div>
+
+          <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
+            <div className="base">
+              <Button text={"Phase 3"} />
+            </div>
+            <div className="overlay bg-slate-950">
+              <p>Finds campsites using google maps & Weatherbit API to filter through user set parameters.</p>
+            </div>
           </div>
 
         </section>
