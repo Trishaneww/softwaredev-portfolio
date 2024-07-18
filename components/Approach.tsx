@@ -21,9 +21,20 @@ const Approach = () => {
           <div className="approachContainer-phase flex justify-center items-center p-2">
            <Button text={"Phase 3"}/>
           </div>
+
+
+          <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
+              <div className="base">
+                <Button text={"Phase 3"} />
+              </div>
+              <div className="overlay bg-slate-950">
+                <p>Finds campsites using google maps & Weatherbit API to filter through user set parameters.</p>
+              </div>
+          </div>
+
         </section>
 
-        <MacbookScroll src='/studyhive11.png' />
+        <MacbookScroll src='/studyhive13.png' />
         
 
 
