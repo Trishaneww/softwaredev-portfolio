@@ -371,13 +371,14 @@ body {
             border-radius: 10px;
             transition: opacity 400ms ease-in-out;
 
+            &-title {
+               
+            }
+
             &:hover {
                 opacity: 1;
             }
               
-            & p {
-                margin: 0 10% 0 10%;
-            }
         }
     }
 }
