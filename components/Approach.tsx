@@ -8,8 +8,11 @@ import { macbook } from '@/data';
 
 const Approach = () => {
   return (
-    <div>
-        <section className="approachContainer">
+    <div className="mt-20">
+       <h1 className="heading lg:text-8xl title"> My {" "}
+          <span className="text-purple lg:text-8xl">Approach</span>
+        </h1>
+        <section className="approachContainer flex justify-center items-center gap-12 mt-16">
           <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
             <div>
               <Button text={"Phase 1"} />
@@ -42,7 +45,7 @@ const Approach = () => {
           </div>
         </section>
 
-        <MacbookScroll src='/studyhive13.png' />
+        {/* <MacbookScroll src='/studyhive13.png' /> */}
         
 
 

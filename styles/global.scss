@@ -343,15 +343,11 @@ body {
 // --------------------------------------------- phase card overlay section --------------------------------------------
 
 .approachContainer {
-    display:flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    gap:2rem;
 
     &-phase {
-        height: 35rem;
-        width:25rem;
+        height: 40rem;
+        width:26rem;
         border: 1px solid #e2cbff78;
         border-radius:20px;
 
