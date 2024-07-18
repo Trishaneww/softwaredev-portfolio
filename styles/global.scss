@@ -340,6 +340,8 @@ body {
     display: flex;
 }
 
+// --------------------------------------------- phase card overlay section --------------------------------------------
+
 .approachContainer {
     display:flex;
     justify-content: center;
@@ -352,41 +354,31 @@ body {
         width:25rem;
         border: 1px solid #e2cbff78;
         border-radius:20px;
-    }
 
-    &-btn {
-        background-color: white;
-        &:hover {
+        &-overlay {
+            position: absolute;
+            top:5;
+            left:0%;
+            width: 100%;
+            height: 95%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             opacity: 0;
-            background-color: white;
+            border-radius: 10px;
+            transition: opacity 400ms ease-in-out;
+
+            &-title {
+               
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+              
         }
     }
-}
-
-// --------------------------------------------- phase card overlay section --------------------------------------------
-
-.overlay {
-    position: absolute;
-    top:5;
-    left:0%;
-    width: 100%;
-    height: 95%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    opacity: 0;
-    border-radius: 10px;
-    transition: opacity 400ms ease-in-out;
-}
-
-
-.overlay:hover {
-    opacity: 1;
-}
-  
-.overlay p {
-    margin: 0 10% 0 10%;
 }
