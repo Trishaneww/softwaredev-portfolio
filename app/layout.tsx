@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Roboto } from "next/font/google";
+import { Inter, Questrial, Roboto } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
-const inter = Roboto({ weight: '400', subsets: ["latin"] });
+const inter = Questrial({ weight: '400', subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Trishane Portfolio",
