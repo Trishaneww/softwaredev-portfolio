@@ -5,7 +5,7 @@ import '../styles/global.scss';
 
 const Projects = () => {
   return (
-    <div className="py-20 w-full relative">
+    <div className="py-20 w-full relative" id="projects">
       <h1 className="heading title lg:text-8xl">
         Recent <span className="text-purple title lg:text-8xl">Projects</span>
       </h1>
