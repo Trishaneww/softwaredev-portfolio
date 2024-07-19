@@ -38,7 +38,7 @@ const Approach = () => {
               <Button text={"Phase 3"} />
             </div>
             <div className="approachContainer-phase-overlay bg-slate-950 p-10">
-              <p className="approachContainer-phase-overlay-title text-4xl font-bold">Deployment</p>
+              <p className="approachContainer-phase-overlay-title text-4xl font-bold">Launch</p>
               <p className="text-sm mt-4 leading-6">
               Once the design is approved, I prepare the website files, configure the hosting environment, and upload the site to a live server. I then provide ongoing maintenance and support to ensure it stays updated, secure, and running smoothly.</p>
             </div>

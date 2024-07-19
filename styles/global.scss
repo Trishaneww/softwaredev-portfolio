@@ -253,14 +253,15 @@ body {
 .title {
     font-family: "Oleo Script", system-ui;
     font-weight: 800;
-    font-size: 6rem;
-
-    @include phone {
-        font-size: 20px;
-    }
+    font-size: 5.5rem;
 
     @include tablet {
         font-size: 55px;
+    }
+
+    @include phone {
+        line-height: 60px;
+        font-size: 35px;
     }
 }
 
@@ -291,7 +292,7 @@ body {
 
     @include phone {
         padding:0;
-        font-size: 14px;
+        font-size: 16px;
         margin:30% 0 0 0;
     }
 
@@ -352,6 +353,10 @@ body {
         border: 1px solid #e2cbff78;
         border-radius:20px;
 
+        @include tablet {
+            width:20rem;
+        }
+
         &-overlay {
             position: absolute;
             top:5;
@@ -367,10 +372,6 @@ body {
             opacity: 0;
             border-radius: 10px;
             transition: opacity 400ms ease-in-out;
-
-            &-title {
-               
-            }
 
             &:hover {
                 opacity: 1;

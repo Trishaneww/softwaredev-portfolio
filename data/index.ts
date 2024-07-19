@@ -1,10 +1,10 @@
 export const navItems = [
     { name: "About", link: "/" },
-    { name: "Projects", link: "/" },
+    { name: "Projects", link: "/#projects" },
     { name: "Resume", link: "/resume.pdf" },
-    { name: "Contact", link: "/" },
+    { name: "Contact", link: "mailto:trishaneww@gmail.com" },
 ];
- 
+
 export const macbook = [
   {
       src: '/foodbyte-logo.png'
@@ -77,20 +77,38 @@ export const macbook = [
     {
       id: 2,
       title: "StudyHive",
-      des: "Streamlined food ordering service to make food proccessing quicker",
+      des: "Platform enabling college students to create, view, and quiz themselves with study decks for more effective learning.",
       img: "/studyhive11.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/Trishaneww/kiosk",
     },
     {
       id: 3,
-      title: "Cater",
-      des: "Streamlined food ordering service to make food proccessing quicker",
+      title: "QuickCater",
+      des: "Our software simplifies catering orders by allowing shared links for collaborative cart additions.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/Trishaneww/kiosk",
     },
   ];
+
+  export const phases = [
+    {
+      id: 1,
+      title: 'Approach',
+      des: "The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements. Next, I create wireframes and design mockups for approval, ensuring the visual style aligns with your brand."
+    },
+    {
+      id: 2,
+      title: 'Development',
+      des: "During the development phase, I will code the website using the latest technologies, ensuring robust functionality and optimal performance. This includes implementing responsive design, integrating necessary features, and optimizing for speed and efficiency."
+    },
+    {
+      id: 3,
+      title: 'Launch',
+      des: "The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements. Next, I create wireframes and design mockups for approval, ensuring the visual style aligns with your brand."
+    }
+  ]
 
   
   export const companies = [
