@@ -15,7 +15,7 @@ const Foodbyte = () => {
             {/* <AnimatedTooltip items={tooltip}/> */}
 
             <div className="projectPage-description1">
-                <p className="projectPage-description1-title">Overview</p>
+                <p className="projectPage-description1-title">Streamlined Ordering System</p>
                 <p className="projectPage-description1-paragraph">Our software offers a cost-effective, tablet-based kiosk ordering solution designed for fast food dining establishments. Perfect for small restaurants, this system allows customers to place orders directly from company-owned tablets via the internet, eliminating the need for expensive hardware kiosks. Customers can easily browse the menu and place orders using these tablets, enhancing their overall dining experience.</p>
                 <p className="projectPage-description1-paragraph mt-6">Store managers benefit from a robust menu management system, enabling them to add or remove menu items and categories with ease. Additionally, the software features an analytics dashboard that provides valuable insights, such as estimated profit, total revenue, and highest-grossing products, allowing managers to make informed business decisions. This software not only streamlines operations but also helps small restaurants thrive by offering a modern, efficient ordering solution.</p>
             </div>
