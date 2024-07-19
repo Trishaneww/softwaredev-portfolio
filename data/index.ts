@@ -95,7 +95,7 @@ export const macbook = [
   export const phases = [
     {
       id: 1,
-      title: 'Approach',
+      title: 'Planning & Strategy',
       des: "The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements. Next, I create wireframes and design mockups for approval, ensuring the visual style aligns with your brand."
     },
     {
@@ -106,7 +106,7 @@ export const macbook = [
     {
       id: 3,
       title: 'Launch',
-      des: "The website development process begins with discovery and planning, where we collaborate to define the website's goals, target audience, key functionalities, and content requirements. Next, I create wireframes and design mockups for approval, ensuring the visual style aligns with your brand."
+      des: "Once the design is approved, I prepare the website files, configure the hosting environment, and upload the site to a live server. I then provide ongoing maintenance and support to ensure it stays updated, secure, and running smoothly."
     }
   ]
 
