@@ -52,24 +52,15 @@ export const macbook = [
   export const tooltip = [
     {
       id: 1,
-      name: "John Doe",
-      designation: "Software Engineer",
-      image:
-        "/foodbyte-logo.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     },
     {
       id: 2,
-      name: "Robert Johnson",
-      designation: "Product Manager",
-      image:
-        "/foodbyte-logo.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     },
     {
       id: 3,
-      name: "Jane Smith",
-      designation: "Data Scientist",
-      image:
-        "/foodbyte-logo.png",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     },
   ]
  
@@ -138,19 +129,19 @@ export const macbook = [
   export const workExperience = [
     {
       id: 1,
-      title: "Foodbyte",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/foodbyte-logo.png",
-      link:'/foodbyte'
-    },
-    {
-      id: 2,
       title: "StudyHive",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/studyhive-logo.png",
       link:'/studyhive'
+    },
+    {
+      id: 2,
+      title: "Foodbyte",
+      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      className: "md:col-span-2",
+      thumbnail: "/foodbyte-logo.png",
+      link:'/foodbyte'
     },
     {
       id: 3,

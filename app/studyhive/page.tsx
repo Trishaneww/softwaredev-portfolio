@@ -1,9 +1,12 @@
 "use client"
 import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
-import { navItems } from '@/data';
+import { navItems, tooltip } from '@/data';
 import { HoverEffect } from '@/components/ui/CardHoverEffect';
 import { studyHiveFeatures } from '@/data';
+import { FaArrowRightLong } from "react-icons/fa6";
+
+
 
 
 const Studyhive = () => {
@@ -19,7 +22,30 @@ const Studyhive = () => {
             <div className="projectPage-description1">
                 <p className="projectPage-description1-title">OverView</p>
                 <p className="projectPage-description1-paragraph">The software allows college students to create personalized flashcard study decks and use various quizzing methods to test their knowledge. In addition to creating their own decks, students can view and study from flashcard decks made by other users, enhancing collaborative learning. The platform also supports the creation of study servers dedicated to specific college courses. By joining these servers, students gain access to chat with other users and use all flashcard decks related to the course, fostering a community-based learning environment. Notably, WebSockets were used to develop the live chat feature within the study servers, ensuring real-time communication among users.</p>
+
+                <div className="flex justify-between items-end mt-10">
+                    <div className="flex items-center">
+                        {tooltip[0].iconLists.map((icon, index) => (
+                            <div
+                            key={index}
+                            className="border border-white/[.2] rounded-full bg-black lg:w-12 lg:h-12 w-8 h-8 flex justify-center items-center"
+                            style={{
+                                transform: `translateX(-${5 * index + 2}px)`,
+                            }}
+                            >
+                            <img src={icon} alt="icon5" className="p-2" />
+                            </div>
+                        ))}
+                    </div> 
+                    <a href="/" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
+
+
+                </div>
             </div>
+
+
+
+
             <section className="projectPage-gallery2">
                 <img src='/studyhive12.png' alt="login page" />
             </section>
@@ -46,10 +72,10 @@ const Studyhive = () => {
                 <img src='/studyhive6.png' alt="first image" />
                 <img src='/studyhive10.png' alt="first image" />
             </section>
-{/* 
-            <div className="projectPage-description1">
-                <p className="projectPage-description1-paragraph">Doodler is a chance for me to experiment with different features, learn new things, and test my technical capabilities. It's something that allows me to scratch that itch I have for understanding new technologies, and to create something that I can use myself.</p>
-            </div> */}
+
+            <div className="projectPage-description1 mt-12">
+                <p className="projectPage-description1-paragraph">Our software empowers college students to create their own study servers for specific courses using JavaScript. Users fill out the required fields, and the information is stored in a SQL database, which is then used to generate the new study server. I designed a script to retrieve all relevant public study decks within the online database that match each study server, providing all students in these servers access to these resources. Additionally, students can join these servers to stay updated on course materials and communicate with peers in real-time via live chat powered by WebSockets.</p>
+            </div> 
 
             <section className="projectPage-gallery2">
                 <img src='/studyhive9.png' alt="login page" />

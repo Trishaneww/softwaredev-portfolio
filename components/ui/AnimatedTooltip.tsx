@@ -9,8 +9,6 @@ import {
   useSpring,
 } from "framer-motion";
 
-import '../../styles/global.scss'
-
 export const AnimatedTooltip = ({
   items,
 }: {
@@ -40,7 +38,7 @@ export const AnimatedTooltip = ({
   };
 
   return (
-    <div className="tooltip" >
+    <>
       {items.map((item, idx) => (
         <div
           className="-mr-4  relative group"
@@ -81,14 +79,16 @@ export const AnimatedTooltip = ({
           </AnimatePresence>
           <Image
             onMouseMove={handleMouseMove}
-            height={100}
-            width={100}
+            height={400}
+            width={400}
             src={item.image}
             alt={item.name}
-            className="object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
+            className="overlow-hidden group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
           />
         </div>
       ))}
-    </div>
+    </>
   );
 };
+
+
