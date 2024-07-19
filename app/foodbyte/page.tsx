@@ -1,8 +1,8 @@
 import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
-import { AnimatedTooltip } from '@/components/ui/AnimatedTooltip';
 import { tooltip } from '@/data';
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 const Foodbyte = () => {
   return (
@@ -18,6 +18,23 @@ const Foodbyte = () => {
                 <p className="projectPage-description1-title">Streamlined Ordering System</p>
                 <p className="projectPage-description1-paragraph">Our software offers a cost-effective, tablet-based kiosk ordering solution designed for fast food dining establishments. Perfect for small restaurants, this system allows customers to place orders directly from company-owned tablets via the internet, eliminating the need for expensive hardware kiosks. Customers can easily browse the menu and place orders using these tablets, enhancing their overall dining experience.</p>
                 <p className="projectPage-description1-paragraph mt-6">Store managers benefit from a robust menu management system, enabling them to add or remove menu items and categories with ease. Additionally, the software features an analytics dashboard that provides valuable insights, such as estimated profit, total revenue, and highest-grossing products, allowing managers to make informed business decisions. This software not only streamlines operations but also helps small restaurants thrive by offering a modern, efficient ordering solution.</p>
+
+                <div className="flex justify-between items-end mt-10">
+                    <div className="flex items-center">
+                        {tooltip[0].iconLists.map((icon, index) => (
+                            <div
+                            key={index}
+                            className="border border-white/[.2] rounded-full bg-black lg:w-12 lg:h-12 w-8 h-8 flex justify-center items-center"
+                            style={{
+                                transform: `translateX(-${5 * index + 2}px)`,
+                            }}
+                            >
+                            <img src={icon} alt="icon5" className="p-2" />
+                            </div>
+                        ))}
+                    </div> 
+                    <a href="https://github.com/Trishaneww/capstone-server" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
+                </div>
             </div>
 
             <section className="projectPage-gallery1">
@@ -47,7 +64,7 @@ const Foodbyte = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/studyhive">StudyHive</a>
+                <a href="/digitalwealth">DigitalWealth</a>
             </footer>
         </div>
     </div>

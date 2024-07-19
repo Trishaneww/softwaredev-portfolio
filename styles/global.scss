@@ -116,6 +116,11 @@ body {
             background-repeat: no-repeat;
             transition: background-size 300ms;
 
+            @include phone {
+                font-size: 12px;
+                width: 120px;
+            }
+
 
             &:hover, &:focus {
                 cursor: pointer;

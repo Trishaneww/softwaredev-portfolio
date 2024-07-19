@@ -1,12 +1,9 @@
 "use client"
 import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
-import { navItems, tooltip } from '@/data';
+import { navItems, studyHiveFeatures, tooltip } from '@/data';
 import { HoverEffect } from '@/components/ui/CardHoverEffect';
-import { studyHiveFeatures } from '@/data';
 import { FaArrowRightLong } from "react-icons/fa6";
-
-
 
 
 const Studyhive = () => {
@@ -37,9 +34,7 @@ const Studyhive = () => {
                             </div>
                         ))}
                     </div> 
-                    <a href="/" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
-
-
+                    <a href="https://github.com/Trishaneww/capstone-server" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
                 </div>
             </div>
 
@@ -53,9 +48,14 @@ const Studyhive = () => {
             {/* This section describes the logic behind the various quzzing features of the software */}
             <div className="projectPage-description1">
                 <p className="projectPage-description1-title">Quizzing</p>
-                <p className="projectPage-description1-paragraph">I developed a comprehensive quizzing system using JavaScript that enables users to quiz themselves in various ways and records their scores. The system is designed to enhance learning and self-assessment by providing immediate feedback and tracking user performance over time.</p>
+                <p className="projectPage-description1-paragraph mt-6">I developed a comprehensive quizzing system using JavaScript that enables users to quiz themselves in various ways and records their scores. The system is designed to enhance learning and self-assessment by providing immediate feedback and tracking user performance over time.</p>
             </div>
             <HoverEffect items={studyHiveFeatures} />
+            <div className="projectPage-description1">
+                <p className="projectPage-description1-paragraph">
+                This quizzing system not only facilitates effective self-assessment but also supports continuous learning and improvement by providing a structured yet flexible platform for users to test and enhance their knowledge.</p>
+            </div>
+
 
 
             {/* This section showcases the quizzing format via a gallery format */}
@@ -82,7 +82,7 @@ const Studyhive = () => {
             </section>
 
             <footer className="projectPage-nextProject">
-                <a href="/digitalwealth">DigitalWealth</a>
+                <a href="/foodbyte">Foodbyte</a>
             </footer>
         </div>
     </div>
