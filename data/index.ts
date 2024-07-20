@@ -166,7 +166,7 @@ export const macbook = [
       title: "DigitalWealth",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/digitalwealth-logo.png",
+      thumbnail: "/dg-logo.png",
       link:'/digitalwealth'
     },
     {
@@ -190,7 +190,7 @@ export const macbook = [
       title: "WhyNotMe",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
-      thumbnail: "/joe-logo.png",
+      thumbnail: "/whynotme-logo.png",
       link:'/whynotme'
     },
   ];

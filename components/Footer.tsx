@@ -2,7 +2,7 @@ import '../styles/global.scss';
 
 const Footer = () => {
   return (
-    <div className="footer-page">
+    <div className="footer-page mb-10 mt-10" >
       <div className="footer">
       <div>
         <p className="footer-trishane">@ 2024 Trishane Wijeyawickrema</p>
@@ -17,6 +17,9 @@ const Footer = () => {
             </li>
             <li>
               <a href="https://www.linkedin.com/in/tw11/">Linkedin</a>
+            </li>
+            <li>
+              <a href="/resume.pdf">Resume</a>
             </li>
             <li>
               <a href="https://www.figma.com/files/team/1301200902848620471/user/1301200898720742294?fuid=1301200898720742294">Figma</a>
