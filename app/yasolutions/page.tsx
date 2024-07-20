@@ -2,7 +2,7 @@ import '../../styles/global.scss';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems, tooltip } from '@/data';
 import { FaArrowRightLong } from 'react-icons/fa6';
-
+/* eslint-disable @next/next/no-img-element */
 
 const Yasolutions = () => {
   return (
