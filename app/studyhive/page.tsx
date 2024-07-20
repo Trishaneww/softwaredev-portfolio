@@ -4,7 +4,7 @@ import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems, studyHiveFeatures, tooltip } from '@/data';
 import { HoverEffect } from '@/components/ui/CardHoverEffect';
 import { FaArrowRightLong } from "react-icons/fa6";
-
+/* eslint-disable @next/next/no-img-element */
 
 const Studyhive = () => {
   return (

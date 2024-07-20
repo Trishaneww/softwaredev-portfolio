@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { progress } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import '../styles/global.scss'
+/* eslint-disable @next/next/no-img-element */
 
 const RecentProjects = () => {
   return (

@@ -3,6 +3,8 @@ import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
 import { tooltip } from '@/data';
 import { FaArrowRightLong } from 'react-icons/fa6';
+import Image from 'next/image'
+/* eslint-disable @next/next/no-img-element */
 
 const Foodbyte = () => {
   return (
@@ -52,8 +54,8 @@ const Foodbyte = () => {
                 <p className="projectPage-description1-paragraph">I created a user model with fields for username, email, and a hashed password, ensuring structured data storage in the SQL database. For the signup process, I built a POST endpoint to handle user registration. This endpoint validates input, hashes the password with bcrypt, and saves the user data in the SQL database. For login, I designed a POST endpoint that verifies user credentials by checking the email against the database and comparing the hashed password using bcrypt. Upon successful authentication, the system generates a session or JWT token for the user. </p>
 
                 {/* <div className="projectPage-description1-gallery">
-                    <img src='/foodbyte9.png' alt="login page" />
-                    <img src='/foodbyte10.png' alt="login page" />
+                    <Image src='/foodbyte9.png' alt="login page" />
+                    <Image src='/foodbyte10.png' alt="login page" />
                 </div> */}
                 <p className="projectPage-description1-paragraph mt-6">I implemented authentication middleware to protect sensitive routes by verifying the session or token. On the frontend, I designed forms for signup and login, connecting them to the backend routes. I also ensured thorough testing and incorporated security measures like input validation, error handling, and rate limiting. This approach created a secure and efficient login/signup system that securely stores user information in the SQL database and manages user sessions effectively. </p>
             </div>

@@ -15,14 +15,14 @@ const Approach = () => {
         </h1>
         <section className="approachContainer flex justify-center items-center gap-12 mt-16">
           {phases.map((phase) => (
-            <div className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
-            <div>
-              <Button text={`Phase ${phase.id}`} />
-            </div>
-            <div className="approachContainer-phase-overlay bg-slate-950 p-10">
-              <p className="approachContainer-phase-overlay-title text-4xl font-bold">{phase.title}</p>
-              <p className="mt-4 leading-6">{phase.des}</p>
-            </div>
+            <div key={phase.id} className="approachContainer-phase flex justify-center items-center p-2 bg-slate-950 relative">
+              <div>
+                <Button text={`Phase ${phase.id}`} />
+              </div>
+              <div className="approachContainer-phase-overlay bg-slate-950 p-10">
+                <p className="approachContainer-phase-overlay-title text-4xl font-bold">{phase.title}</p>
+                <p className="mt-4 leading-6">{phase.des}</p>
+              </div>
           </div>
           ))}
         </section>

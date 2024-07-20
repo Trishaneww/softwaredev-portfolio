@@ -2,6 +2,7 @@ import React from "react";
 import { projects } from "@/data";
 import { Button } from './ui/MovingBorders';
 import '../styles/global.scss';
+/* eslint-disable @next/next/no-img-element */
 
 const Projects = () => {
   return (
