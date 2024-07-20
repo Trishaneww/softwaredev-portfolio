@@ -65,7 +65,7 @@ export const macbook = [
   ]
  
   
-  export const projects = [
+  export const progress = [
     {
       id: 1,
       title: "Foodbyte",
@@ -144,7 +144,7 @@ export const macbook = [
     },
   ];
   
-  export const workExperience = [
+  export const projects = [
     {
       id: 1,
       title: "StudyHive",
@@ -194,18 +194,4 @@ export const macbook = [
       link:'/whynotme'
     },
   ];
-  
-  export const socialMedia = [
-    {
-      id: 1,
-      img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
-      img: "/link.svg",
-    },
-  ];
+ 
