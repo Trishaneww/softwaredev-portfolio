@@ -172,7 +172,7 @@ export const macbook = [
     {
       id: 4,
       title: "YaSolutions",
-      desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth",
+      desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth.",
       className: "md:col-span-2",
       thumbnail: "/yasolutionslogo2.png",
       link:'/yasolutions'

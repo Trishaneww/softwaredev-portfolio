@@ -28,7 +28,7 @@ const PrimeTort = () => {
                             </div>
                         ))}
                     </div> 
-                    <a href="https://www.primetortleads.com/" className="flex justify-between items-center w-[120px]">View Live Site<FaArrowRightLong /></a>
+                    <a href="https://www.primetortleads.com/" className="flex justify-between items-center gap-2 sm:gap-1">View Live Site<FaArrowRightLong /></a>
                 </div>
             </div>
 
