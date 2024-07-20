@@ -65,7 +65,7 @@ export const macbook = [
   ]
  
   
-  export const projects = [
+  export const progress = [
     {
       id: 1,
       title: "Foodbyte",
@@ -86,7 +86,7 @@ export const macbook = [
       id: 3,
       title: "QuickCater",
       des: "Our software simplifies catering orders by allowing shared links for collaborative cart additions.",
-      img: "/p3.svg",
+      img: "/foodbyte6.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/Trishaneww/kiosk",
     },
@@ -144,11 +144,11 @@ export const macbook = [
     },
   ];
   
-  export const workExperience = [
+  export const projects = [
     {
       id: 1,
       title: "StudyHive",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      desc: "Platform enabling college students to create, view, and quiz themselves with study decks for more effective learning.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/studyhive-logo.png",
       link:'/studyhive'
@@ -156,7 +156,7 @@ export const macbook = [
     {
       id: 2,
       title: "Foodbyte",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Streamlined food ordering service to make food proccessing quicker.",
       className: "md:col-span-2",
       thumbnail: "/foodbyte-logo.png",
       link:'/foodbyte'
@@ -164,15 +164,15 @@ export const macbook = [
     {
       id: 3,
       title: "DigitalWealth",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Delivers real-time cryptocurrency prices and the latest industry news using the Coinranking API.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/digitalwealth-logo.png",
+      thumbnail: "/dg-logo.png",
       link:'/digitalwealth'
     },
     {
       id: 4,
       title: "YaSolutions",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "Specializes in delivering high-quality lead generation through innovative digital marketing strategies tailored to drive measurable business growth.",
       className: "md:col-span-2",
       thumbnail: "/yasolutionslogo2.png",
       link:'/yasolutions'
@@ -180,7 +180,7 @@ export const macbook = [
     {
       id: 5,
       title: "PrimeTort",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "PrimeTort Leads, the marketing arm of YA Solutions Inc, specializes in Mass Tort Case Acquisition.",
       className: "md:col-span-2",
       thumbnail: "/primetort.png",
       link:'/primetort'
@@ -188,24 +188,10 @@ export const macbook = [
     {
       id: 6,
       title: "WhyNotMe",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "E-commerce website offering a seamless shopping experience with secure and efficient payment processing powered by the Stripe API.",
       className: "md:col-span-2",
-      thumbnail: "/joe-logo.png",
+      thumbnail: "/whynotme-logo.png",
       link:'/whynotme'
     },
   ];
-  
-  export const socialMedia = [
-    {
-      id: 1,
-      img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
-      img: "/link.svg",
-    },
-  ];
+ 

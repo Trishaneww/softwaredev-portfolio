@@ -1,5 +1,5 @@
 import React from "react";
-import { workExperience } from "@/data";
+import { projects } from "@/data";
 import { Button } from './ui/MovingBorders';
 import '../styles/global.scss';
 
@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 p-6">
-        {workExperience.map((card) => (
+        {projects.map((card) => (
           <Button
             key={card.id}
             //   random duration will be fun , I think , may be not

@@ -10,7 +10,7 @@ import { phases } from '@/data';
 const Approach = () => {
   return (
     <div className="mt-20">
-       <h1 className="heading lg:text-8xl title"> My {" "}
+       <h1 className="heading lg:text-8xl title"> My Design {" "}
           <span className="text-purple lg:text-8xl">Approach</span>
         </h1>
         <section className="approachContainer flex justify-center items-center gap-12 mt-16">

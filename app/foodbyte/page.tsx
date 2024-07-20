@@ -33,7 +33,7 @@ const Foodbyte = () => {
                             </div>
                         ))}
                     </div> 
-                    <a href="https://github.com/Trishaneww/capstone-server" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
+                    <a href="https://github.com/Trishaneww/capstone-server" className="flex justify-between items-center gap-2 sm:gap-1">View Github Repo <FaArrowRightLong /></a>
                 </div>
             </div>
 

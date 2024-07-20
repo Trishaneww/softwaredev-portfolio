@@ -1,6 +1,6 @@
 "use client";
 import { FaLocationArrow } from "react-icons/fa6";
-import { projects } from "@/data";
+import { progress } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import '../styles/global.scss'
 
@@ -12,7 +12,7 @@ const RecentProjects = () => {
         <span className="text-purple lg:text-8xl">Progress</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-2 gap-20 mt-12">
-        {projects.map((item) => (
+        {progress.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] ml-2 mr-2"
             key={item.id}

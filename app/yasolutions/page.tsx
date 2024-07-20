@@ -13,7 +13,7 @@ const Yasolutions = () => {
             <img src='/yasolutions6.png' alt="preview image" />
 
             <div className="projectPage-description1">
-                <p className="projectPage-description1-title">Overview</p>
+                <p className="projectPage-description1-title">Lead Generation</p>
                 <p className="projectPage-description1-paragraph">YaSolutionsInc is a lead generation company specializing in delivering high-quality leads across various industries. Our tailored strategies and cutting-edge technologies help businesses connect with potential customers, driving growth and increasing sales.</p>
                 <div className="flex justify-between items-end mt-10">
                     <div className="flex items-center">
@@ -29,7 +29,7 @@ const Yasolutions = () => {
                             </div>
                         ))}
                     </div> 
-                    <a href="https://github.com/Trishaneww/capstone-server" className="flex justify-between items-center w-[150px]">View Github Repo <FaArrowRightLong /></a>
+                    <a href="https://www.yasolutionsinc.com/" className="flex justify-between items-center gap-2 sm:gap-1">View Live Site <FaArrowRightLong /></a>
                 </div>
             </div>
 
