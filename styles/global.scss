@@ -4,6 +4,9 @@
 @use "./partials/paddings" as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Niconne&family=Norican&family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 body {
     margin:0;
@@ -50,6 +53,7 @@ body {
 
     &-title {
         font-family: "Oleo Script", system-ui;
+        // font-family: "Racing Sans One", sans-serif;
         color:rgb(255, 255, 255);
         font-size: 120px;
         font-weight: 800;
@@ -84,6 +88,7 @@ body {
 
         &-title {
             font-family: "Oleo Script", system-ui;
+            // font-family: "Racing Sans One", sans-serif;
             color:rgb(198, 176, 207);
             font-size: 60px;
             font-weight: 800;
@@ -252,6 +257,9 @@ body {
 
 .title {
     font-family: "Oleo Script", system-ui;
+    // font-family: "Calistoga", serif;
+    // font-family: "Shrikhand", serif;
+    // font-family: "Racing Sans One", sans-serif;
     font-weight: 800;
     font-size: 5.5rem;
 
